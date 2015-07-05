@@ -5,6 +5,7 @@
 * [常用設定](setting.md)
 * [本機篇](01_local/SUMMARY.md)
     * [建立 Git 專案](01_local/create_project.md)
+    * [提交一個 Patch](01_local/commit_a_patch.md)
     * [查看狀態](01_local/show_status.md)
         * [status](01_local/status.md)
         * [log](01_local/log.md)

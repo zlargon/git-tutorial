@@ -6,6 +6,14 @@
 
 	- git init
 
+#### [提交一個 Patch](commit_a_patch.md)
+
+	- git status
+	- git add <file>
+	- git commit
+	- git log
+	- git show
+
 ### 查看狀態 (4)
 * [status](status.md)
 * [log](log.md)
