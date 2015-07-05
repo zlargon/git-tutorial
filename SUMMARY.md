@@ -2,6 +2,7 @@
 
 * [簡介](README.md)
 * [Git 安裝](installation.md)
+* [常用設定](setting.md)
 * [本機篇](01_local/SUMMARY.md)
     * [初始化及設定](01_local/init_config.md)
         * [init](01_local/init.md)
