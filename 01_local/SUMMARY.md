@@ -14,11 +14,14 @@
 	- git log
 	- git show
 
-### 查看狀態 (4)
-* [status](status.md)
-* [log](log.md)
-* [show](show.md)
-* [diff](diff.md)
+#### [新增 / 修改檔案](modify_files.md)
+
+    - git diff
+    - git diff <file>
+    - git diff --cached
+    - git add -A
+    - git commit -m <message>
+    - git show <commit_id>
 
 ### 新增/修改 patch (4)
 * [add](add.md)
