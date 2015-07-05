@@ -1,9 +1,10 @@
-# 本機篇 (18)
+# 本機篇
 
-### 初始化、設定 (2)
+## _本章節講的所有指令，皆是在本機端離線操作；也就是說，完全不需要透過網路來操作_
 
-* [init](init.md)
-* [config](config.md)
+#### [建立 Git 專案](create_project.md)
+
+	- git init
 
 ### 查看狀態 (4)
 * [status](status.md)
