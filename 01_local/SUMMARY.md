@@ -32,6 +32,10 @@
 
     - git mv <file> <directory>
 
+#### [重新命名檔案](rename_files.md)
+
+    - git mv <file> <new_name>
+
 ### 移除 patch (3)
 * [reset](reset.md)
 * [revert](revert.md)
