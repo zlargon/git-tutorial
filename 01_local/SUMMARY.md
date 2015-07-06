@@ -23,11 +23,10 @@
     - git commit -m <message>
     - git show <commit_id>
 
-### 新增/修改 patch (4)
-* [add](add.md)
-* [rm](rm.md)
-* [mv](mv.md)
-* [commit](commit.md)
+#### [刪除檔案](remove_files.md)
+
+    - git rm <file>
+    - git add -u
 
 ### 移除 patch (3)
 * [reset](reset.md)
