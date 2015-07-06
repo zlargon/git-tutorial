@@ -28,6 +28,10 @@
     - git rm <file>
     - git add -u
 
+#### [搬移檔案](move_files.md)
+
+    - git mv <file> <directory>
+
 ### 移除 patch (3)
 * [reset](reset.md)
 * [revert](revert.md)
