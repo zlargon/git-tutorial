@@ -10,6 +10,7 @@
     * [刪除檔案](01_local/remove_files.md)
     * [搬移檔案](01_local/move_files.md)
     * [重新命名檔案](01_local/rename_files.md)
+    * [檔案狀態](01_local/file_status.md)
     * [刪除 patch](remove_patch.md)
         * [reset](01_local/reset.md)
         * [revert](01_local/revert.md)

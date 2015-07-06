@@ -36,6 +36,12 @@
 
     - git mv <file> <new_name>
 
+#### [檔案狀態](file_status.md)
+
+    - git reset HEAD
+    - git reset HEAD <file>
+    - git checkout -- <file>
+
 ### 移除 patch (3)
 * [reset](reset.md)
 * [revert](revert.md)
