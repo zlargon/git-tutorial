@@ -43,7 +43,7 @@ $ git commit
 
 這時候會進入 `vim` 的文字編輯模式，編輯提交訊息（commit message）
 
-![edit commit message](commit_a_patch/git_comit.png)
+![edit commit message](commit_a_patch/git_commit.png)
 
 * 第一行為 commit message 的標題（僅限一行）
 * 第二行保留空白
@@ -55,7 +55,7 @@ $ git commit
 
 ## 使用 `git log` 檢視提交的歷史訊息
 
-使用 `git log` 來檢視之前的提交的歷史訊息，他將會列出所有的 patch 的資訊
+使用 `git log` 來檢視之前的提交的歷史訊息，他將會列出所有 patch 的資訊
 
 ![git log](commit_a_patch/git_log.png)
 
@@ -79,7 +79,7 @@ Date:   Sun Jul 5 19:11:35 2015 +0800
 
 <br>
 
-在下 `git status` 時，會顯示
+這時候再做 `git status` 時會顯示
 
 <pre style="border: 1px solid grey">
 On branch master
