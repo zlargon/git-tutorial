@@ -4,7 +4,7 @@
 
 在檔案的最後面新增一行字串 "Hi Git"，並且使用 `git status` 來查看檔案狀態
 
-![Changes not staged for commit](/_assets/git_status_changes_not_staged_for_commit.png)
+![Changes not staged for commit](modify_files/git_status_1.png)
 
 `hello_world.txt` 的狀態變成 ___Changes not staged for commit___
 
@@ -18,7 +18,7 @@
 $ git diff hello_world.txt
 ```
 
-![git diff hello_world](/_assets/git_diff_hello_world.png)
+![git diff hello_world](modify_files/git_diff.png)
 
 透過 `git diff` 可以看出 ` hello_world.txt` 的最底下新增了一行 "Hi Git" 的字串
 
@@ -44,7 +44,7 @@ $ git diff hello_world.txt
 
 然後再用 `git status` 去檢視狀態
 
-![git status](/_assets/git_status_untrack+not_staged_for_commit.png)
+![git status](modify_files/git_status_2.png)
 
 我們可以看到 `numbers.txt` 的狀態是 ___Untracked files___
 
@@ -61,7 +61,7 @@ $ git add hello_world.txt
 $ git add numbers.txt
 ```
 
-![git add all](/_assets/git_add_all.png)
+![git add all](modify_files/git_add.png)
 
 #### 檔案狀態改變：
 
@@ -99,7 +99,7 @@ $ git diff --cached     # 檢視綠色部分的內容
 $ git diff --staged     # --staged 等同於 --cached
 ```
 
-![git diff cached](/_assets/git_diff_cached.png)
+![git diff cached](modify_files/git_diff_cached.png)
 
 <br>
 
@@ -120,7 +120,7 @@ $ git commit -m "Add two files"
 $ git log
 ```
 
-![git commit m](/_assets/git_commit_m.png)
+![git commit m](modify_files/git_commit_m.png)
 
 <br>
 
@@ -140,7 +140,7 @@ $ git show 497f7c4c695f02fac3dd2e7b8d3253f85c72242c # 查看首次 commit 的 pa
 $ git show 497f7c                                   # 同上
 ```
 
-![git show all](/_assets/git_show_all.png)
+![git show all](modify_files/git_show.png)
 
 <br>
 
