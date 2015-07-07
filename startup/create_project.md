@@ -8,7 +8,7 @@ $ cd my_project
 $ git init
 ```
 
-![git init](/_assets/git_init.png)
+![git init](create_project/git_init.png)
 
 從這裡我們可以看到，在 `my_project/` 底下，多了一個 `.git` 的資料夾
 
