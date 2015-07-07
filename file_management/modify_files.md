@@ -8,7 +8,7 @@
 
 `hello_world.txt` 的狀態變成 ___Changes not staged for commit___
 
-表示這個檔案被修改了，但是尚未要進行提交
+表示這個檔案被修改了，但是尚未要進行提交（稍後我們會在 ["檔案狀態"](file_status.md) 做更詳細的解釋）
 
 <br>
 

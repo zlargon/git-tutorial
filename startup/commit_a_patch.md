@@ -12,7 +12,7 @@ $ git status
 
 我們這裡可以看到，目前 `hello_world.txt` 的狀態為 ___Untracked files___
 
-表示這是一個全新的檔案（稍後我們會再做更詳細的解釋）
+表示這是一個全新的檔案（稍後我們會在 ["檔案狀態"](../file_management/file_status.md) 做更詳細的解釋）
 
 <br>
 
@@ -31,7 +31,7 @@ $ git status
 
 `hello_world.txt` 的狀態改變成綠色的 ___Changes to be committed___
 
-表示這個檔案已經 "準備好" 要被提交（commit）了（稍後我們會再做更詳細的解釋）
+表示這個檔案已經 "準備好" 要被提交（commit）了（稍後我們會在 ["檔案狀態"](../file_management/file_status.md) 做更詳細的解釋）
 
 <br>
 
