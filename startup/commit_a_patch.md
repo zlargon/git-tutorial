@@ -8,7 +8,7 @@
 $ git status
 ```
 
-![Untracked files](/_assets/git_status_untracked_files.png)
+![Untracked files](commit_a_patch/git_status_untracked_files.png)
 
 我們這裡可以看到，目前 `hello_world.txt` 的狀態為 ___Untracked files___
 
@@ -27,7 +27,7 @@ $ git status
 
 這時我們再用 `git status` 來檢視檔案的狀態
 
-![Changes to be committed](/_assets/git_status_changes_to_be_committed.png)
+![Changes to be committed](commit_a_patch/git_status_changes_to_be_committed.png)
 
 `hello_world.txt` 的狀態改變成綠色的 ___Changes to be committed___
 
@@ -43,7 +43,7 @@ $ git commit
 
 這時候會進入 `vim` 的文字編輯模式，編輯提交訊息（commit message）
 
-![edit commit message](/_assets/edit_commit_message.png)
+![edit commit message](commit_a_patch/git_comit.png)
 
 * 第一行為 commit message 的標題（僅限一行）
 * 第二行保留空白
@@ -57,7 +57,7 @@ $ git commit
 
 使用 `git log` 來檢視之前的提交的歷史訊息，他將會列出所有的 patch 的資訊
 
-![git commit and git log](/_assets/git_commit+git_log.png)
+![git log](commit_a_patch/git_log.png)
 
 <pre style="border: 1px solid grey">
 <span style="color: #e6b422">commit 497f7c4c695f02fac3dd2e7b8d3253f85c72242c</span>
@@ -98,7 +98,7 @@ $ git show
 
 使用 `git show` 來檢視最後一次提交的 patch 所修改的內容
 
-![git show](/_assets/git_show.png)
+![git show](commit_a_patch/git_show.png)
 
 從 `git show` 可以看出，這個 patch 新增了一個 `hello_world.txt` 的檔案，內容為 `Hello World`
 
