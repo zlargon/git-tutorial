@@ -1,7 +1,7 @@
 # Summary
 
 * [簡介](README.md)
-* [Git 安裝](installation.md)
+* [安裝](installation.md)
 * [常用設定](setting.md)
 * [初體驗](startup/SUMMARY.md)
     * [建立 Git 專案](startup/create_project.md)
