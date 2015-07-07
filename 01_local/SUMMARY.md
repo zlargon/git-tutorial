@@ -2,18 +2,6 @@
 
 ## _本章節講的所有指令，皆是在本機端離線操作；也就是說，完全不需要透過網路來操作_
 
-#### [建立 Git 專案](create_project.md)
-
-	- git init
-
-#### [提交一個 Patch](commit_a_patch.md)
-
-	- git status
-	- git add <file>
-	- git commit
-	- git log
-	- git show
-
 #### [新增 / 修改檔案](modify_files.md)
 
     - git diff
