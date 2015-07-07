@@ -2,7 +2,7 @@
 
 * [簡介](README.md)
 * [安裝](installation.md)
-* [常用設定](setting.md)
+* [配置](config.md)
 * [初體驗](startup/SUMMARY.md)
     * [建立 Git 專案](startup/create_project.md)
     * [提交一個 Patch](startup/commit_a_patch.md)

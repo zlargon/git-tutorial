@@ -1,6 +1,6 @@
-# 常用設定
+# 配置
 
-## * 設定 username, email
+## 設定 username, email
 
 初次使用 git，最重要的就是設定 `username` 以及 `email`
 
@@ -21,7 +21,7 @@ $ git config --global  user.email "zlargon@icloud.com"
 $ git config -l
 ```
 
-![git config](/_assets/git_config_list.png)
+![git config](config/git_config_list.png)
 
 > ___參數 `-l` 即為 `--list`，等同於以下的指令___
 
@@ -31,7 +31,7 @@ $ git config -l
 
 而所有 `git config --global` 的設定內容，都會被寫入 `~/.gitconfig`
 
-![git config](/_assets/gitconfig.png)
+![git config](config/gitconfig.png)
 
 ## 預設開啟彩色
 
@@ -113,4 +113,4 @@ $ echo "[ -f ~/.git-completion.sh ] && . ~/.git-completion.sh" >> ~/.bash_profil
 $ source ~/.bash_profile
 ```
 
-![.bash_profile](/_assets/bash_profile.png)
+![.bash_profile](config/bash_profile.png)
