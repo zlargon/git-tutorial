@@ -12,6 +12,7 @@
     * [搬移檔案](file_management/move_files.md)
     * [重新命名檔案](file_management/rename_files.md)
     * [檔案狀態](file_management/file_status.md)
+    * [檔案還原](file_management/recover_files.md)
 * [Patch 管理](patch_management/README.md)
     * [關鍵字 HEAD](patch_management/head.md)
     * [reset](patch_management/reset.md)
