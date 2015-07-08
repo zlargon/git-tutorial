@@ -13,6 +13,7 @@
     * [重新命名檔案](file_management/rename_files.md)
     * [檔案狀態](file_management/file_status.md)
 * [Patch 管理](patch_management/README.md)
+    * [關鍵字 HEAD](patch_management/head.md)
     * [reset](patch_management/reset.md)
     * [revert](patch_management/revert.md)
     * [reflog](patch_management/reflog.md)
