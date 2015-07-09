@@ -16,7 +16,7 @@
 * [Patch 管理](patch_management/README.md)
     * [基本觀念](patch_management/basic.md)
     * [關鍵字 HEAD](patch_management/head.md)
-    * [reset](patch_management/reset.md)
+    * [Reset Patch](patch_management/reset.md)
     * [revert](patch_management/revert.md)
     * [reflog](patch_management/reflog.md)
 * [分支管理](branch_management/README.md)
