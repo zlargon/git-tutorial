@@ -15,3 +15,8 @@
     git reset HEAD^
     git reset --hard HEAD^
     git reset --hard <commit id>
+
+#### [找回消失的 Patch](reflog.md)
+
+    git reflog
+    git log -g
