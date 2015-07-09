@@ -18,6 +18,7 @@
     * [關鍵字 HEAD](patch_management/head.md)
     * [Reset Patch](patch_management/reset.md)
     * [找回消失的 Patch](patch_management/reflog.md)
+    * [修改 / 訂正 Patch](patch_management/amend.md)
     * [cherry-pick](patch_management/cherry-pick.md)
     * [revert](patch_management/revert.md)
 * [分支管理](branch_management/README.md)

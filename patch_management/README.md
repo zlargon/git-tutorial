@@ -20,3 +20,10 @@
 
     git reflog
     git log -g
+
+#### [修改 / 訂正 Patch](amend.md)
+
+    git commit --amend
+    git commit --amend -m <message>
+    git reset --soft HEAD^
+    git reset --soft HEAD@{1}           # 保命技
