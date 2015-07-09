@@ -14,6 +14,7 @@
     * [檔案狀態](file_management/file_status.md)
     * [檔案還原](file_management/recover_files.md)
 * [Patch 管理](patch_management/README.md)
+    * [基本觀念](patch_management/basic.md)
     * [關鍵字 HEAD](patch_management/head.md)
     * [reset](patch_management/reset.md)
     * [revert](patch_management/revert.md)
