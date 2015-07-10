@@ -19,7 +19,7 @@
     * [Reset Patch](patch_management/reset.md)
     * [找回消失的 Patch](patch_management/reflog.md)
     * [修改 / 訂正 Patch](patch_management/amend.md)
-    * [cherry-pick](patch_management/cherry-pick.md)
+    * [移除單一個 Patch](patch_management/remove_a_patch.md)
     * [revert](patch_management/revert.md)
 * [分支管理](branch_management/README.md)
     * [branch](branch_management/branch.md)
