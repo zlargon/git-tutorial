@@ -35,3 +35,8 @@
 #### [Rebase 互動模式](patch_management/rebase_interactive.md)
 
     git rebase -i <after this commit>
+
+#### [Cherry-Pick 版本衝突](cherry_pick_conflict.md)
+
+    git cherry-pick --continue
+    git cherry-pick --abort

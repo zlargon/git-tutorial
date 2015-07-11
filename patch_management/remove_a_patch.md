@@ -135,7 +135,7 @@ git 都可以幫我們順利接好，就像剛才我們範例那樣
 
 解 ___Confilct___ 常常是許多初學者的夢魘，看到 ___Confilct___ 就整個人呆掉了
 
-我們在後面的章節會再為大家介紹什麼是 ___Confilct___，如何解 ___Confilct___
+我們在後面的 ["Cherry-Pick 版本衝突"](cherry_pick_conflict.md) 會再為大家介紹什麼是 ___Confilct___，如何解 ___Confilct___
 
 以及如何降低 ___Confilct___ 發生的機會
 
