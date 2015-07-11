@@ -20,6 +20,7 @@
     * [找回消失的 Patch](patch_management/reflog.md)
     * [修改 / 訂正 Patch](patch_management/amend.md)
     * [移除單一個 Patch](patch_management/remove_a_patch.md)
+    * [Rebase 互動模式](patch_management/rebase_interactive.md)
     * [revert](patch_management/revert.md)
 * [分支管理](branch_management/README.md)
     * [branch](branch_management/branch.md)
