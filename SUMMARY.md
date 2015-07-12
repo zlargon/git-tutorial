@@ -25,6 +25,7 @@
     * [Rebase 版本衝突](patch_management/rebase_conflict.md)
     * [Revert Patch](patch_management/revert.md)
 * [分支管理](branch_management/README.md)
+    * [查看分支](branch_management/show_branches.md)
     * [branch](branch_management/branch.md)
     * [checkout](branch_management/checkout.md)
     * [merge](branch_management/merge.md)
