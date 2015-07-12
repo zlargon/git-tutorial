@@ -23,7 +23,7 @@
     * [Rebase 互動模式](patch_management/rebase_interactive.md)
     * [Cherry-Pick 版本衝突](patch_management/cherry_pick_conflict.md)
     * [Rebase 版本衝突](patch_management/rebase_conflict.md)
-    * [revert](patch_management/revert.md)
+    * [Revert Patch](patch_management/revert.md)
 * [分支管理](branch_management/README.md)
     * [branch](branch_management/branch.md)
     * [checkout](branch_management/checkout.md)

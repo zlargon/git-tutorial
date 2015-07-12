@@ -46,3 +46,9 @@
     git rebase --continue
     git rebase --skip
     git rebase --abort
+
+#### [Revert Patch](revert.md)
+
+    git revert <commit id>
+    git revert --continue
+    git revert --abort
