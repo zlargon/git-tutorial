@@ -8,5 +8,14 @@
 
     "structure": {
         "readme": "INTRO.md"
+    },
+
+    "plugins": [
+        "disqus"
+    ],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "zlargon"
+        }
     }
 }
