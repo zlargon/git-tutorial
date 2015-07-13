@@ -32,7 +32,7 @@
 
     git cherry-pick <commit id>
 
-#### [Rebase 互動模式](patch_management/rebase_interactive.md)
+#### [Rebase 互動模式](rebase_interactive.md)
 
     git rebase -i <after this commit>
 
