@@ -14,7 +14,7 @@
     git rm <file>
     git add -u
 
-#### [搬移檔案](move_files.md)
+#### [搬移檔案](move.md)
 
     git mv <file> <directory>
 

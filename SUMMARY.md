@@ -9,7 +9,7 @@
 * [檔案管理](file/README.md)
     * [新增 / 修改檔案](file/modify.md)
     * [刪除檔案](file/remove.md)
-    * [搬移檔案](file/move_files.md)
+    * [搬移檔案](file/move.md)
     * [重新命名檔案](file/rename_files.md)
     * [檔案狀態](file/status.md)
     * [檔案還原](file/recover_files.md)

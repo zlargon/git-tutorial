@@ -10,7 +10,7 @@ $ mv numbers.txt my_folder/
 $ git status
 ```
 
-![move file](move_files/move_file.png)
+![move file](move/move_file.png)
 
 目前檔案結構為
 
@@ -34,7 +34,7 @@ $ git add my_folder/
 $ git status
 ```
 
-![renamed file](move_files/git_status.png)
+![renamed file](move/git_status.png)
 
 `numbers.txt` 的狀態變成 ___Changes to be committed (renamed)___
 
@@ -67,4 +67,4 @@ $ git commit -m "move numbers.txt to my_folder"
 $ git log
 ```
 
-![move commit log](move_files/git_log.png)
+![move commit log](move/git_log.png)
