@@ -7,7 +7,7 @@
     * [建立 Git 專案](startup/create_project.md)
     * [提交一個 Patch](startup/commit_a_patch.md)
 * [檔案管理](file/README.md)
-    * [新增 / 修改檔案](file/modify_files.md)
+    * [新增 / 修改檔案](file/modify.md)
     * [刪除檔案](file/remove_files.md)
     * [搬移檔案](file/move_files.md)
     * [重新命名檔案](file/rename_files.md)

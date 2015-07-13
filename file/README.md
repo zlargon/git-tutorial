@@ -1,6 +1,6 @@
 # 檔案管理
 
-#### [新增 / 修改檔案](modify_files.md)
+#### [新增 / 修改檔案](modify.md)
 
     git diff
     git diff <file>
