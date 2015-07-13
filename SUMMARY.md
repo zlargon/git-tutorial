@@ -8,7 +8,7 @@
     * [提交一個 Patch](startup/commit_a_patch.md)
 * [檔案管理](file/README.md)
     * [新增 / 修改檔案](file/modify.md)
-    * [刪除檔案](file/remove_files.md)
+    * [刪除檔案](file/remove.md)
     * [搬移檔案](file/move_files.md)
     * [重新命名檔案](file/rename_files.md)
     * [檔案狀態](file/status.md)

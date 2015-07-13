@@ -9,7 +9,7 @@
     git commit -m <message>
     git show <commit_id>
 
-#### [刪除檔案](remove_files.md)
+#### [刪除檔案](remove.md)
 
     git rm <file>
     git add -u
