@@ -1,6 +1,6 @@
 # Cherry-Pick 版本衝突
 
-在 ["移除單一個 Patch"](remove_a_patch.md) 的結尾，我們有提到有時候我們在做 `cherry-pick` 的時候會遇到版本衝突的問題
+在 ["移除單一個 Patch"](remove.md) 的結尾，我們有提到有時候我們在做 `cherry-pick` 的時候會遇到版本衝突的問題
 
 我們現在就來製造一個版本衝突的情況
 

@@ -19,7 +19,7 @@
     * [Reset Patch](patch/reset.md)
     * [找回消失的 Patch](patch/reflog.md)
     * [修改 / 訂正 Patch](patch/amend.md)
-    * [移除單一個 Patch](patch/remove_a_patch.md)
+    * [移除單一個 Patch](patch/remove.md)
     * [Rebase 互動模式](patch/rebase_interactive.md)
     * [Cherry-Pick 版本衝突](patch/cherry_pick_conflict.md)
     * [Rebase 版本衝突](patch/rebase_conflict.md)

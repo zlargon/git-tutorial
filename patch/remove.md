@@ -67,7 +67,7 @@ ___我們先回到 P2，然後再把 P4 跟 P5 重新加進來___
 
 現在我們來用剛才的範例實際操作一次
 
-![git log](remove_a_patch/git_log.png)
+![git log](remove/git_log.png)
 
 我們現在的目標是，把 `P4` 移除，讓 P5 直接接在 P3 後面
 
@@ -75,13 +75,13 @@ ___我們先回到 P2，然後再把 P4 跟 P5 重新加進來___
     $ git cherry-pick   b2dbf88     # 挑入 P5 → P5'
     $ git cherry-pick   8cb205e     # 挑入 P6 → P6'
 
-![git cherry-pick](remove_a_patch/git_cherry_pick.png)
+![git cherry-pick](remove/git_cherry_pick.png)
 
 這裡我們已經成功把 P4 移除
 
 而且我們看到最後的兩個 P5' 和 P6' 的 commit id 都已經改變
 
-![git log pretty](remove_a_patch/git_log_pretty.png)
+![git log pretty](remove/git_log_pretty.png)
 
 而原本的 P5 和 P6 會被 git 記錄在 `reflog` 裡面
 
@@ -115,7 +115,7 @@ P3    →   (P5'   →    P6')  →   (P4')
 
     $ git cherry-pick  fd4f99e      # 挑入 P4 → P4'
 
-![git cherry-pick P4](remove_a_patch/git_cherry_pick_p4.png)
+![git cherry-pick P4](remove/git_cherry_pick_p4.png)
 
 <br>
 

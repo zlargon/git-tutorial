@@ -1,6 +1,6 @@
 # Revert Patch
 
-在 ["移除單一個 Patch"](remove_a_patch.md) 的時候，我們有學到如何移除一個 patch 或是調換 patch 的順序
+在 ["移除單一個 Patch"](remove.md) 的時候，我們有學到如何移除一個 patch 或是調換 patch 的順序
 
 必須使用 `git reset --hard` 回到特定的點上面，然後再用 `git cherry-pick` 把每個 patch 一個一個挑回來
 

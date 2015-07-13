@@ -28,7 +28,7 @@
     git reset --soft HEAD^
     git reset --soft HEAD@{1}           # 保命技
 
-#### [移除單一個 Patch](remove_a_patch.md)
+#### [移除單一個 Patch](remove.md)
 
     git cherry-pick <commit id>
 
