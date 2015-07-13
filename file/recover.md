@@ -15,7 +15,7 @@
     $ git status
     $ git diff
 
-![modify file](recover_files/modify_file.png)
+![modify file](recover/modify_file.png)
 
 這時候 `num.txt` 的狀態是 ___<span style="color: red">Changes not staged for commit (modified)</span>___
 
@@ -24,7 +24,7 @@
     $ git checkout -- num.txt
     $ git status
 
-![git checkout --](recover_files/git_checkout_--.png)
+![git checkout --](recover/git_checkout_--.png)
 
 這裡可以看到，檔案已經還原修改前的內容
 
@@ -55,7 +55,7 @@
     $ git add
     $ git status
 
-![git_add.png](recover_files/git_add.png)
+![git_add.png](recover/git_add.png)
 
 這時候 `num.txt` 的狀態，從 ___<span style="color: red">Changes not staged for commit (modified)</span>___ 變成 ___<span style="color: green">Changes to be committed (modified)</span>___
 
@@ -65,7 +65,7 @@
     $ git reset HEAD num.txt
     $ git status
 
-![git reset](recover_files/git_reset.png)
+![git reset](recover/git_reset.png)
 
 <br>
 
@@ -73,13 +73,13 @@
 
 首先我們先新增一行 "22"，然後 `git add` 到 ___<span style="color: green">Changes to be committed</span>___，然後再對 `num.txt` 新增一行 "33"
 
-![double_status.png](recover_files/double_status.png)
+![double_status.png](recover/double_status.png)
 
 這時候我們用 `git status` 可以看到 `num.txt` 同時屬於兩種狀態
 
 這時候我們再用 `git diff` 來查看改變的內容
 
-![git_diff.png](recover_files/git_diff.png)
+![git_diff.png](recover/git_diff.png)
 
 從 `git diff --cached` 可以看到新增 "22" 的部分
 
@@ -101,7 +101,7 @@ ___git 可以只 commit 一份檔案中部分的內容，不一定要以整份�
     $ git reset --hard HEAD
     $ git status
 
-![git_reset_hard.png](recover_files/git_reset_hard.png)
+![git_reset_hard.png](recover/git_reset_hard.png)
 
 我們可以看到，所有的在非 ___<span style="color: red">Untracked files</span>___ 的內容，都被清空了
 

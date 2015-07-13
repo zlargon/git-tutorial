@@ -28,7 +28,7 @@
     git reset HEAD <file>
     git checkout -- <file>
 
-#### [檔案還原](recover_files.md)
+#### [檔案還原](recover.md)
 
     git checkout -- <file>
     git reset HEAD

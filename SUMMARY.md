@@ -12,7 +12,7 @@
     * [搬移檔案](file/move.md)
     * [重新命名檔案](file/rename_files.md)
     * [檔案狀態](file/status.md)
-    * [檔案還原](file/recover_files.md)
+    * [檔案還原](file/recover.md)
 * [Patch 管理](patch_management/README.md)
     * [基本觀念](patch_management/basic.md)
     * [關鍵字 HEAD](patch_management/head.md)

@@ -1,6 +1,6 @@
 # Reset Patch
 
-前面在 ["檔案還原"](../file/recover_files.md) 有提到 `git reset HEAD` 可以根據 `HEAD`（目前所在的 patch）還原全部的檔案狀態
+前面在 ["檔案還原"](../file/recover.md) 有提到 `git reset HEAD` 可以根據 `HEAD`（目前所在的 patch）還原全部的檔案狀態
 
 ___其實換句話說，`git reset HEAD` 就是還原到 `HEAD` 這個 patch 的意思___
 
@@ -39,7 +39,7 @@ $ git status
 
 ## 使用 `git reset --hard HEAD^` 回到上一個 patch，並且強制清除修改的內容
 
-我們在 ["檔案還原"](../file/recover_files.md) 有提到，使用 `git reset --hard HEAD` 來還原所有檔案的內容
+我們在 ["檔案還原"](../file/recover.md) 有提到，使用 `git reset --hard HEAD` 來還原所有檔案的內容
 
 因此我們可以舉一反三，如果把 `HEAD` 改成 `HEAD^`
 
