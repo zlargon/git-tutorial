@@ -2,7 +2,7 @@
 
 在之前幾節裡面，都是用 `git add / rm` 來使狀態變成 ___<span style="color: green">Changes to be committed</span>___
 
-在我們了解 ["檔案狀態"](file_status.md) 間的轉換之後
+在我們了解 ["檔案狀態"](status.md) 間的轉換之後
 
 現在我們來示範一下檔案還原的部分
 
@@ -36,7 +36,7 @@
 
 簡單來說，這是一個把綠色變回紅色的指令
 
-![git reset HEAD <file>](file_status/changes_to_be_committed.jpg)
+![git reset HEAD <file>](status/changes_to_be_committed.jpg)
 
 根據 `HEAD`（目前的 patch，也就是最後一次提交的 patch）來還原 `file` 的 "檔案狀態"
 

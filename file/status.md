@@ -8,7 +8,7 @@ Git 將 __"尚未被提交"__ 的檔案分成三個區塊，由上而下分別�
 * __Changes not staged for commit（被更動但尚未要提交的檔案）__
 * __Untracked files（未被追蹤的檔案）__
 
-![file status](file_status/git_status.png)
+![file status](status/git_status.png)
 
 ## _Untracked files（未被追蹤的檔案）_
 
@@ -31,7 +31,7 @@ Git 將 __"尚未被提交"__ 的檔案分成三個區塊，由上而下分別�
 
 <br>
 
-![untracked files.jpg](file_status/untracked_files.jpg)
+![untracked files.jpg](status/untracked_files.jpg)
 
 <br>
 
@@ -66,7 +66,7 @@ git 會去 track 這些檔案的狀態，當檔案被修改（___modified___）�
 
 <br>
 
-![changes not staged for commit.jpg](file_status/changes_not_staged_for_commit.jpg)
+![changes not staged for commit.jpg](status/changes_not_staged_for_commit.jpg)
 
 <br>
 
@@ -94,7 +94,7 @@ git 會去 track 這些檔案的狀態，當檔案被修改（___modified___）�
 
 <br>
 
-![changes to be committed.jpg](file_status/changes_to_be_committed.jpg)
+![changes to be committed.jpg](status/changes_to_be_committed.jpg)
 
 <br>
 
@@ -106,7 +106,7 @@ git 會去 track 這些檔案的狀態，當檔案被修改（___modified___）�
 
 只要心裡對這個圖有個概念就好了
 
-![git file status all.jpg](file_status/git_file_status.jpg)
+![git file status all.jpg](status/git_file_status.jpg)
 
 > Git 官方網站有關於檔案狀態的介紹&nbsp;&nbsp;[[英文版]](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)&nbsp;&nbsp;[[中文版]](https://git-scm.com/book/zh-tw/v1/Git-基礎-提交更新到儲存庫)
 

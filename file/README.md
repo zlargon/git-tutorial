@@ -22,7 +22,7 @@
 
     git mv <file> <new_name>
 
-#### [檔案狀態](file_status.md)
+#### [檔案狀態](status.md)
 
     git reset HEAD
     git reset HEAD <file>

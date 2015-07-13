@@ -11,7 +11,7 @@
     * [刪除檔案](file/remove_files.md)
     * [搬移檔案](file/move_files.md)
     * [重新命名檔案](file/rename_files.md)
-    * [檔案狀態](file/file_status.md)
+    * [檔案狀態](file/status.md)
     * [檔案還原](file/recover_files.md)
 * [Patch 管理](patch_management/README.md)
     * [基本觀念](patch_management/basic.md)
