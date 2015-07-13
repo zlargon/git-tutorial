@@ -4,7 +4,7 @@
 
 這是什麼意思呢？
 
-![on_branch_master.png](show_branches/on_branch_master.png)
+![on_branch_master.png](show/on_branch_master.png)
 
 其實一直以來，我們都是在一個叫 `master` 的分支上提交 patch
 
@@ -23,7 +23,7 @@ Git 習慣把 __"主分支"__ 稱為 `master`
 
     $ git branch
 
-![git_branch.png](show_branches/git_branch.png)
+![git_branch.png](show/git_branch.png)
 
 這表示目前只有 `master` 一個分支
 
@@ -41,7 +41,7 @@ Git 習慣把 __"主分支"__ 稱為 `master`
 
 所以當你安裝好 git 之後，`gitk` 也就安裝好了
 
-![built_in_gitk.png](show_branches/built_in_gitk.png)
+![built_in_gitk.png](show/built_in_gitk.png)
 
 在 git 的專案底下，輸入 `gitk` 即可啟動
 
@@ -49,7 +49,7 @@ Git 習慣把 __"主分支"__ 稱為 `master`
 
     $ gitk &        # 在背景執行 gitk
 
-![start_gitk.png](show_branches/start_gitk.png)
+![start_gitk.png](show/start_gitk.png)
 
 從 `gitk` 可以一目瞭然的看到所有 patch
 
@@ -61,7 +61,7 @@ Git 習慣把 __"主分支"__ 稱為 `master`
 
     > 由於黃點與 `master` 重疊，這表示我們目前位在 `master` 這個分支上
 
-![gitk_ui.png](show_branches/gitk_ui.png)
+![gitk_ui.png](show/gitk_ui.png)
 
 `gitk` 是一個非常陽春的圖形化介面，只能單純觀看所有分支的情況
 
