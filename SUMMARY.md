@@ -10,7 +10,7 @@
     * [新增 / 修改檔案](file/modify.md)
     * [刪除檔案](file/remove.md)
     * [搬移檔案](file/move.md)
-    * [重新命名檔案](file/rename_files.md)
+    * [重新命名檔案](file/rename.md)
     * [檔案狀態](file/status.md)
     * [檔案還原](file/recover.md)
 * [Patch 管理](patch_management/README.md)

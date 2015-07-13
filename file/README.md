@@ -18,7 +18,7 @@
 
     git mv <file> <directory>
 
-#### [重新命名檔案](rename_files.md)
+#### [重新命名檔案](rename.md)
 
     git mv <file> <new_name>
 

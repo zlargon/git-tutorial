@@ -23,7 +23,7 @@ $ git mv my_folder/numbers.txt .
 $ git mv numbers.txt num.txt
 ```
 
-![git move and rename file](rename_files/git_mv.png)
+![git move and rename file](rename/git_mv.png)
 
 我們透過 `ls` 可以看出，`numbers.txt` 確實已經被重新命名為 `num.txt` 了
 
@@ -36,7 +36,7 @@ $ git commit -m "Rename numbers.txt to num.txt"
 $ git show
 ```
 
-![git commit and git show](rename_files/git_show.png)
+![git commit and git show](rename/git_show.png)
 
 <br>
 
@@ -51,7 +51,7 @@ $ rm -rf my_folder/
 $ git status
 ```
 
-![git ignore empty folder](rename_files/ignore_empty_folder.png)
+![git ignore empty folder](rename/ignore_empty_folder.png)
 
 雖然我們已經把 `my_folder` 刪掉了，可是 `git status` 卻沒有發生任何的狀態改變？
 
