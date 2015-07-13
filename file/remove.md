@@ -67,3 +67,5 @@ $ git log
 * 使用 `git rm <file>` 來告知 git，哪些是我們將要刪除的檔案
 
 * 使用 `git add -u` 加入所有被更動的檔案（包含 _modified_ 及 _deleted_）
+
+<br><br><br>

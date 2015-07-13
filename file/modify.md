@@ -157,3 +157,5 @@ $ git show 497f7c                                   # 同上
 * 使用 `git commit -m <message>` 來提交（不啟動文字編輯模式）
 
 * 使用 `git show <commit_id>` 來查看特定 patch 修改的內容
+
+<br><br><br>

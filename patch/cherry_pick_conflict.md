@@ -322,3 +322,5 @@ patch 多沒有關係，但 patch 改的內容要越細越好
 * 使用 `git cherry-pick --abort` 取消，並且回到 cherry-pick 前的狀態
 
 * 如何降低發生 ___conflict___ 的機會
+
+<br><br><br>

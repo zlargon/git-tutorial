@@ -25,3 +25,5 @@
 例如我要看前兩個的 patch 所修改的內容，就可以用 `git show HEAD^^`
 
 ![HEAD~2](head/HEAD~2.png)
+
+<br><br><br>

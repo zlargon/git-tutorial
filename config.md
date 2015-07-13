@@ -114,3 +114,5 @@ $ source ~/.bash_profile
 ```
 
 ![.bash_profile](config/bash_profile.png)
+
+<br><br><br>

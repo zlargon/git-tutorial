@@ -17,3 +17,5 @@ https://git-scm.com/downloads
 `MinGW` 讓我們可以在 Windows 的環境下，使用與 UNIX-like 的方式下指令 `cd`, `ls`, `vim`, `curl`, ...
 
 ![Git Bash](installation/windows.png)
+
+<br><br><br>

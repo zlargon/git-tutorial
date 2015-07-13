@@ -75,3 +75,5 @@
 * 使用 `git reflog` 來查看 `HEAD` 的修改紀錄
 
 * 使用 `git log -g` 查看 reflog 的詳細內容
+
+<br><br><br>

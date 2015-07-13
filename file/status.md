@@ -111,3 +111,5 @@ git 會去 track 這些檔案的狀態，當檔案被修改（___modified___）�
 > Git 官方網站有關於檔案狀態的介紹&nbsp;&nbsp;[[英文版]](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)&nbsp;&nbsp;[[中文版]](https://git-scm.com/book/zh-tw/v1/Git-基礎-提交更新到儲存庫)
 
 > 我覺得看 `File Status Lifecycle` 的圖並不是很好理解，不過大家還是可以參考一下
+
+<br><br><br>

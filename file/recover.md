@@ -123,3 +123,5 @@ ___git 可以只 commit 一份檔案中部分的內容，不一定要以整份�
  * 使用 `git reset HEAD <file>` 來還原 "檔案狀態"
 
  * 使用 `git reset --hard HEAD` 來清空 ___<span style="color: red">Changes not staged for commit</span>___ 和 ___<span style="color: green">Changes to be committed</span>___ 區塊
+
+<br><br><br>

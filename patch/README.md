@@ -52,3 +52,5 @@
     git revert <commit id>
     git revert --continue
     git revert --abort
+
+<br><br><br>

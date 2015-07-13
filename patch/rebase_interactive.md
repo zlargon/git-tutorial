@@ -119,3 +119,5 @@ git 會由上而下依序執行 `Rebase TODO` 裡的指令
 ![rebase_result.png](rebase_interactive/rebase_result.png)
 
 所有的 patch 確實是按照我們想要的成功改好了！
+
+<br><br><br>

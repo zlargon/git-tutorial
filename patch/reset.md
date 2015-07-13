@@ -124,3 +124,5 @@ $ git status
 * 使用 `git reset --hard HEAD^` 回到上一個 patch，並且強制清除修改的內容
 
 * 使用 `git reset --hard <commit id>` 直接 reset 成指定的 patch
+
+<br><br><br>

@@ -34,3 +34,5 @@
     git reset HEAD
     git reset HEAD <file>
     git reset --hard HEAD
+
+<br><br><br>

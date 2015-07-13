@@ -115,3 +115,5 @@ $ git show
 * 使用 `git log` 檢視提交的歷史訊息
 
 * 使用 `git show` 檢視最後一次提交的 patch 所修改內容
+
+<br><br><br>

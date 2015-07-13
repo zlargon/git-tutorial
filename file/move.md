@@ -68,3 +68,5 @@ $ git log
 ```
 
 ![move commit log](move/git_log.png)
+
+<br><br><br>

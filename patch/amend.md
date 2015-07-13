@@ -160,3 +160,5 @@ ___<span style="color: green">Changes to be committed</span>___ 的內容已經�
 * 使用 `git commit --amend` 修改提交訊息及內容
 
 * 保命技 `git reset --soft HEAD@{1}`
+
+<br><br><br>

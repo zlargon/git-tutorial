@@ -144,3 +144,5 @@ git 都可以幫我們順利接好，就像剛才我們範例那樣
 ## 本章回顧
 
 * 使用 `git cherry-pick <commit id>` 挑入 patch
+
+<br><br><br>

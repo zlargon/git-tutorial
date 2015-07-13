@@ -119,3 +119,5 @@ Rebase 互動模式讓我們快速的完成多個 `cherry-pick` 的指令
 * 使用 `git rebase --skip` 跳過目前正在執行 `Rebase TODO` 的動作，並執行下一個動作
 
 * 使用 `git rebase --abort` 全部取消，並且回到 rebase 前的狀態
+
+<br><br><br>
