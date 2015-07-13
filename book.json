@@ -4,5 +4,9 @@
 
     "title": "Git",
     "description": "Git Tutorial",
-    "language": "zh-tw"
+    "language": "zh-tw",
+
+    "structure": {
+        "readme": "INTRO.md"
+    }
 }

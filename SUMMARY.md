@@ -1,6 +1,6 @@
 # Summary
 
-* [簡介](README.md)
+* [簡介](INTRO.md)
 * [安裝](installation.md)
 * [配置](config.md)
 * [初體驗](startup/README.md)
