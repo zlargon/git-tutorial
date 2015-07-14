@@ -27,6 +27,7 @@
 * [分支管理](branch/README.md)
     * [查看分支](branch/show.md)
     * [建立 / 刪除分支](branch/create_delete.md)
+    * [Commit Tree](branch/commit_tree.md)
     * [merge](branch/merge.md)
     * [rebase](branch/rebase.md)
 * [遠端篇](remote/README.md)

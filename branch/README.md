@@ -14,4 +14,9 @@
     git branch -D <branch name>
     git log <branch name>
 
+#### [Commit Tree](commit_tree.md)
+
+    git checkout <commit id>
+    git checkout -b <new branch name> <commit id>
+
 <br><br><br>
