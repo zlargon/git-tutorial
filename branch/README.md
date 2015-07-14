@@ -19,4 +19,11 @@
     git checkout <commit id>
     git checkout -b <new branch name> <commit id>
 
+#### [Rebase 合併分支](rebase.md)
+
+    git cherry-pick <commit 1> <commit 2> ...
+    git rebase <new base>
+    git rebase <new base> <branch name>
+    git reset --hard ORIG_HEAD
+
 <br><br><br>
