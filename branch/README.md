@@ -26,4 +26,9 @@
     git rebase <new base> <branch name>
     git reset --hard ORIG_HEAD
 
+#### [Merge 合併分支](merge.md)
+
+    git merge <branch name>
+    git merge --no-ff <branch name>
+
 <br><br><br>

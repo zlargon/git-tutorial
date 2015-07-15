@@ -29,7 +29,7 @@
     * [建立 / 刪除分支](branch/create_delete.md)
     * [Commit Tree](branch/commit_tree.md)
     * [Rebase 合併分支](branch/rebase.md)
-    * [merge](branch/merge.md)
+    * [Merge 合併分支](branch/merge.md)
 * [遠端篇](remote/README.md)
     * [clone](remote/clone.md)
     * [remote](remote/remote.md)
