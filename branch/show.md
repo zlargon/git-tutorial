@@ -43,11 +43,13 @@ Git 習慣把 __"主分支"__ 稱為 `master`
 
 ![built_in_gitk.png](show/built_in_gitk.png)
 
-在 git 的專案底下，輸入 `gitk` 即可啟動
+在 git 的專案底下，輸入 `gitk --all` 即可啟動
+
+後面帶 `--all` 才會顯示所有的分支，否則只會顯示目前的分支
 
 如果想要使 `gitk` 在背景執行的話，請記得在最後面輸入 `&`，這樣 `gitk` 才不會佔用終端機
 
-    $ gitk &        # 在背景執行 gitk
+    $ gitk --all &      # 在背景執行 gitk
 
 ![start_gitk.png](show/start_gitk.png)
 
@@ -105,6 +107,6 @@ Git 的分支模型非常的輕巧，可以讓我們很快速的建立 / 刪除�
 
 * 使用 `git branch` 查看所有的分支
 
-* 使用 `gik &` 啟動圖形化介面
+* 使用 `gik --all &` 啟動圖形化介面
 
 <br><br><br>

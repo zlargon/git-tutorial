@@ -3,7 +3,7 @@
 #### [查看分支](show.md)
 
     git branch
-    gitk &
+    gitk --all &
 
 #### [建立 / 刪除分支](create_delete.md)
 
