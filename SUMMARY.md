@@ -31,6 +31,7 @@
     * [Rebase 合併分支](branch/rebase.md)
     * [Merge 合併分支](branch/merge.md)
 * [遠端篇](remote/README.md)
+    * [新增專案](remote/new_project.md)
     * [clone](remote/clone.md)
     * [remote](remote/remote.md)
     * [fetch](remote/fetch.md)
