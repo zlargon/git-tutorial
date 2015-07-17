@@ -35,6 +35,7 @@
     * [設定 Repo URL](remote/remote.md)
     * [上傳分支](remote/push.md)
     * [設定 Upstream](remote/upstream.md)
+    * [強制更新遠端分支](remote/force_update.md)
     * [clone](remote/clone.md)
     * [fetch](remote/fetch.md)
     * [pull](remote/pull.md)

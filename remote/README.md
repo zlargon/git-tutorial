@@ -23,4 +23,8 @@
     git branch -u <remote>/<remote branch>
     git branch --unset-upstream
 
+#### [強制更新遠端分支](force_update.md)
+
+    git push -f
+
 <br><br><br>
