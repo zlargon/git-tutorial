@@ -30,6 +30,14 @@
     git clone <repo URL> <folder name/path>
     git clone <local project>
 
+#### [同步遠端分支](sync.md)
+
+    git fetch <remote name>
+    git fetch --all
+    git remote update
+    git pull
+    git pull --rebase
+
 #### [強制更新遠端分支](force_update.md)
 
     git push -f
