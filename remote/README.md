@@ -42,4 +42,13 @@
 
     git push -f
 
+#### [刪除遠端分支](delete_branch.md)
+
+    git push <remote name> :<branch name>
+    git remote show <remote name>
+    git remote prune <remote name>
+    git remote update -p
+    git fetch --all -p
+    git fetch -p
+
 <br><br><br>

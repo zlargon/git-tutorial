@@ -38,6 +38,7 @@
     * [複製 / 下載專案](remote/clone.md)
     * [同步遠端分支](remote/sync.md)
     * [強制更新遠端分支](remote/force_update.md)
+    * [刪除遠端分支](remote/delete_branch.md)
 * [進階篇](advanced/README.md)
     * [stash](advanced/stash.md)
     * [submodule](advanced/submodule.md)
