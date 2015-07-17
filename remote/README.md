@@ -19,4 +19,10 @@
     git push -u <remote name> <branch name>
     git branch --unset-upstream
 
+#### [設定 Upstream](upstream.md)
+
+    git push -u <remote name> <branch name>
+    git branch -u <remote>/<remote branch>
+    git branch --unset-upstream
+
 <br><br><br>
