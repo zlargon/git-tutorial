@@ -16,7 +16,8 @@ Git 在上傳程式碼到 server 時，必須是以分支為單位
 
 如果 server 上沒有 `master` 這個分支，他就會自動在 server 上添加 `master` 分支
 
-> 這邊要注意一點，你在本機端的分支名稱，必須跟 Server 上的分支名稱完全相同
+> 注意：<br>
+> 本機端的分支名稱必須跟 server 上的分支名稱完全相同
 
 ![push_master.png](push/push_master.png)
 
@@ -32,7 +33,7 @@ Git 在上傳程式碼到 server 時，必須是以分支為單位
 
 如果想要看到遠端的分支的話，就必須加上 `-a` 或是 `--all` 參數
 
-__遠端分支：__`remotes/<remote name>/<branch name>`
+__遠端分支名稱：__`remotes/<remote name>/<branch name>`
 
     $ git branch -a
     $ git branch --all
@@ -59,78 +60,34 @@ __遠端分支：__`remotes/<remote name>/<branch name>`
 
 <br>
 
-## 使用 `git push -u <remote name> <branch name>` 上傳分支，並且追蹤遠端的分支
+## 上傳程式碼的流程
 
-![repo_url.png](new_project/repo_url.png)
+先在本機端修改 / 更新分支，然後在上傳到 server
 
-大家應該有發現 Github 提供的指令中，`git push` 後面有加一個參數 `-u`
+現在我們就在 local 的 `master` 分支提交一個新的 patch P9
 
-`-u` 等同於參數 `--set-upstream`，意思是設定本機端的 `master` 去追蹤遠端的 `github/master` 分支
+![git_add_p9.png](push/git_add_p9.png)
 
-```
-$ git push -u github master                     # 等同於以下三行指令
+這時候我們可以看到 `master` 與 `remotes/github/master` 的分支目前是不同步的情況
 
-$ git push github master
-$ git checkout master
-$ git branch --set-upstream-to=github/master    # 不需要記這個指令
-```
+現在我們上傳 `master` 到 Github Server，更新遠端的 repository
 
-分支 `master` 設定 `--set-upstream` 後，`git status` 會出現追蹤的情況
+    $ git push gihub master
 
-表示目前本機端與遠端的 `master` 分支相同
+![update_remote_master.png](push/update_remote_master.png)
 
-![branch_set_upstream.png](push/branch_set_upstream.png)
+<pre style="border: 1px solid grey">
+fb86c54..6ae1a73  master -> master
+</pre>
 
-我們現在在 `master` 提交新的 patch P9
+這表示遠端的 `master` 分支已經從 fb86c54（P8）更新成 6ae1a73（P9）
 
-他會顯示我們目前的分支領先 `github/master` 一個 patch
-
-![ahead_of_master.png](push/ahead_of_master.png)
-
-如果我們倒退回前三個 patch
-
-則會看到目前本機端的 `master` 落後於 `github/master` 2 個 patch
-
-![behind_master.png](push/behind_master.png)
-
-<br>
-
-除此之外，設定追蹤最大的好處是
-
-之後只需要透過 `git push` 就可以上傳分支，不必帶 `<remote name>` 跟 `<branch name>`
-
-    $ git checkout master
-    $ git push              # 不用帶 <remote name> 跟 <branch name>
-
-只要第一次 push 的時候帶 `-u` 參數就好了！
-
-<br>
-
-## 使用 `git branch --unset-upstream` 取消追蹤遠端分支
-
-    $ git checkout master
-    $ git branch --unset-upstream
-
-![branch_unset_upstream.png](push/branch_unset_upstream.png)
-
-<br>
-
-## 使用 `gitk --all` 來查看遠端分支
-
-![gitk_all.png](push/gitk_all.png)
-
-<br>
+![p8_p9.png](push/p8_p9.png)
 
 ## 本章回顧
 
 * 使用 `git branch -a` 查看本機端及遠端的分支
 
 * 使用 `git push <remote name> <branch name>` 上傳分支
-
-* 使用 `git push -u <remote name> <branch name>` 上傳分支，並且追蹤遠端的分支
-
-    > 之後只需要透過 `git push` 就可以上傳分支，不必帶 `<remote name>` 跟 `<branch name>`
-
-* 使用 `git branch --unset-upstream` 取消追蹤遠端分支
 
 <br><br><br>

@@ -16,8 +16,6 @@
 
     git branch -a
     git push <remote name> <branch name>
-    git push -u <remote name> <branch name>
-    git branch --unset-upstream
 
 #### [設定 Upstream](upstream.md)
 
