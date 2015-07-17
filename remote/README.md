@@ -23,6 +23,13 @@
     git branch -u <remote>/<remote branch>
     git branch --unset-upstream
 
+#### [複製 / 下載專案](clone.md)
+
+    git clone <repo URL>
+    git clone <repo URL> -b <branch name>
+    git clone <repo URL> <folder name/path>
+    git clone <local project>
+
 #### [強制更新遠端分支](force_update.md)
 
     git push -f
