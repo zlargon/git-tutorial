@@ -35,4 +35,8 @@
     git reset HEAD <file>
     git reset --hard HEAD
 
+#### [忽略檔案](ignore.md)
+
+    git add -f <file>
+
 <br><br><br>

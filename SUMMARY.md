@@ -13,6 +13,7 @@
     * [重新命名檔案](file/rename.md)
     * [檔案狀態](file/status.md)
     * [檔案還原](file/recover.md)
+    * [忽略檔案](file/ignore.md)
 * [Patch 管理](patch/README.md)
     * [基本觀念](patch/basic.md)
     * [關鍵字 HEAD](patch/head.md)
