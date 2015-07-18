@@ -11,7 +11,8 @@
     },
 
     "plugins": [
-        "disqus"
+        "disqus",
+        "codeblock-filename"
     ],
     "pluginsConfig": {
         "disqus": {
