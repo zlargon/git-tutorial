@@ -10,4 +10,9 @@
     git stash drop stash@{n}
     git stash clear
 
+#### [Add / Checkout 檔案部分內容](add_checkout_part_of_file.md)
+
+    git add -p
+    git checkout -p
+
 <br><br><br>

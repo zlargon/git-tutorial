@@ -42,6 +42,7 @@
     * [刪除遠端分支](remote/delete_branch.md)
 * [進階篇](advanced/README.md)
     * [檔案暫存](advanced/stash.md)
+    * [Add / Checkout 檔案部分內容](advanced/add_checkout_part_of_file.md)
     * [submodule](advanced/submodule.md)
     * [tag](advanced/tag.md)
     * [svn](advanced/svn.md)
