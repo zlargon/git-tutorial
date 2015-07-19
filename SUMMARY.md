@@ -41,7 +41,7 @@
     * [強制更新遠端分支](remote/force_update.md)
     * [刪除遠端分支](remote/delete_branch.md)
 * [進階篇](advanced/README.md)
-    * [stash](advanced/stash.md)
+    * [檔案暫存](advanced/stash.md)
     * [submodule](advanced/submodule.md)
     * [tag](advanced/tag.md)
     * [svn](advanced/svn.md)
