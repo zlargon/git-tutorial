@@ -44,5 +44,5 @@
     * [檔案暫存](advanced/stash.md)
     * [Add / Checkout 檔案部分內容](advanced/add_checkout_part_of_file.md)
     * [版本標籤](advanced/tag.md)
-    * [submodule](advanced/submodule.md)
+    * [子模組](advanced/submodule.md)
     * [svn](advanced/svn.md)

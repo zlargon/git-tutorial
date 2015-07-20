@@ -29,4 +29,11 @@
     git push <remote name> :<tag name>
     git push -f <remote name> <tag name>
 
+#### [子模組](submodule.md)
+
+    git submodule init
+    git submodule update
+    git submodule add <repo url> <project path>
+    git clone --recursive <repo URL>
+
 <br><br><br>
