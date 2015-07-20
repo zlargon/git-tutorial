@@ -43,6 +43,6 @@
 * [進階篇](advanced/README.md)
     * [檔案暫存](advanced/stash.md)
     * [Add / Checkout 檔案部分內容](advanced/add_checkout_part_of_file.md)
+    * [版本標籤](advanced/tag.md)
     * [submodule](advanced/submodule.md)
-    * [tag](advanced/tag.md)
     * [svn](advanced/svn.md)

@@ -15,4 +15,18 @@
     git add -p
     git checkout -p
 
+#### [版本標籤](tag.md)
+
+    git tag
+    git tag <tag name> <commit id>
+    git tag -a <tag name> <commit id>
+    git tag -a <tag name> <commit id> -m <msg1> -m <msg2>
+    git tag -a <tag name> <tag name>^{} -f
+    git tag -d <tag name>
+
+    git push <remote name> <tag name>
+    git push <remote name> --tags
+    git push <remote name> :<tag name>
+    git push -f <remote name> <tag name>
+
 <br><br><br>
