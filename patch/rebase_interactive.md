@@ -64,7 +64,7 @@ P0    →    P1    →    P2   →    [P3]    →    P4    →    P5    →    P
 
     > ___squash___<br>`cherry-pick` 這個 patch，但是會和前一個 patch 合併在一起
 
-    > ___fixup___<br>`cherry-pick` 這個 patch，會和前一個 patch 合併在一起，但是會捨既這個 patch 的提交訊息
+    > ___fixup___<br>`cherry-pick` 這個 patch，會和前一個 patch 合併在一起，但是會捨棄這個 patch 的提交訊息
 
     > ___exec___<br>`cherry-pick` 這個 patch，並且執行一個 shell script
 
