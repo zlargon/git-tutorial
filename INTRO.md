@@ -13,6 +13,8 @@
 2. 遠端篇
 3. 進階篇
 
+__（本教學中會使用 patch 一詞替代 "名詞" 的 commit，詳細內容請看 [這裡](startup/commit_a_patch.md) 最下面）__
+
 講解時，全都是在終端機以 `command line` 的方式進行操作
 
 * 使用 Windows 的人建議安裝 Git 官方所提供的 `Git Bash`

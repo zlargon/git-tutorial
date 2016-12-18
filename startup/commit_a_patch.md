@@ -104,6 +104,62 @@ $ git show
 
 <br>
 
+## 關於 Commit 與 Patch
+
+本教學中所用到的 "patch" 其實正確來說，應該要用 "commit" 來稱呼
+
+是沒錯，跟 git commit 一樣，也是叫 commit
+
+不過一個是動詞，一個是名詞
+
+對初學者來說，這還滿令人混淆的
+
+比較正確的說法，應該是 "commit a commit"，而不是 "commit a patch"
+
+然而在英文字典中，commit 只有動詞的字義，而找不到名詞的字義
+
+    commit (v.) 犯罪；託付
+
+git commit 比較接近於 "託付" → 交託 → 提交（submit）
+
+> 其實 commit 不只有這兩個動詞字義，有興趣的人可以去查大字典 :D
+
+> 其名詞型為 commitment，表示 "承諾" 的意思
+
+<br>
+
+Git 的作者已經完全將 commit 給名詞化了
+
+不過 "commit a commit" 聽起來實在太繞口了，連外國人自己都不會這樣講
+
+通常他們會講 "make/create a commit" 或是 "commit a change"
+
+<br>
+
+而我在教學裡面最後是決定用 patch 來取代稱呼 commit (n.)
+
+希望可以降低 commit (v.) 跟 commit (n.) 對初學者造成的混淆
+
+有些 open source 的文件在說明如何貢獻原始碼的時候，也可以看到 "commit/submit a patch" 的講法
+
+會選用 patch 有部分是受到 [Gerrit](https://www.gerritcodereview.com/) 的啟發
+
+但最主要是因為 git 裡面有一個指令就叫做 [`format-patch`](https://git-scm.com/docs/git-format-patch)
+
+`format-patch` → 將 patch 格式化，產生實體檔案（patch file）
+
+簡單來說，就是可以將一個或多個 commit (n.) 打包起來，然後用其他方式傳給別人（例如：Email）
+
+這是一個比較進階，而且少見的指令，幾乎是不會用到的
+
+只有少部分 open source 會要求貢獻者使用 patch file 來提交程式碼（例如：[FFmpeg](https://ffmpeg.org/developer.html#Submitting-patches)）
+
+整體來說，commit (n.) 跟 patch 的概念是很相似的
+
+雖然這不是正統的講法，但會相對比較好理解
+
+<br>
+
 ## 本章回顧
 
 * 使用 `git status` 來檢視所有檔案的狀態
