@@ -100,7 +100,7 @@
 
 我們不能刪除目前所在的分支，git 會顯示錯誤的訊息
 
-    $ git branch -D featrue         # 失敗
+    $ git branch -D feature         # 失敗
 
 ![delete_feature.png](create_delete/delete_feature.png)
 
