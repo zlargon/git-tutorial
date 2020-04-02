@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "repository": "git@github.com:zlargon/git-tutorial.git",
+  "author": "zlargon <zlargon1988@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
+  "scripts": {
+    "postinstall": "gitbook install",
+    "start": "gitbook serve",
+    "build": "gitbook build"
+  }
+}
