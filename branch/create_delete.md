@@ -13,7 +13,7 @@
 
 ![create_bugFix.png](create_delete/create_bugFix.png)
 
-`git branch <new branch name>` 會根據目前所有的位置來建立分支
+`git branch <new branch name>` 會根據目前所在的位置來建立分支
 
 因此現在 `master` 和 `bugFix` 內容是完全一樣的
 
